@@ -1,0 +1,1680 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Pricing</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" media="all">
+  <style>
+    a {
+      text-decoration: none !important;
+    }
+    :root {
+      --buy-basic: #7d6e99;
+      --buy-business: #a7ca1a;
+      --buy-no: #b22222;
+      --buy-pro: #4c7da5;
+      --light-gray: #f8f8f8;
+    }
+
+    .gen {
+      background-color: var(--light-gray);
+      background: var(--light-gray);
+    }
+    .billed {
+      font-size: 12px;
+    }
+
+    .btn-buy-basic {
+      color: var(--white);
+      background: var(--buy-basic);
+      background-color: var(--buy-basic);
+      border-color: var(--buy-basic);
+    }
+
+    .btn-buy-business {
+      color: var(--white);
+      background: var(--buy-business);
+      background-color: var(--buy-business);
+      border-color: var(--buy-business);
+    }
+
+    .btn-buy-pro {
+      color: var(--white);
+      background: var(--buy-pro);
+      background-color: var(--buy-pro);
+      border-color: var(--buy-pro);
+    }
+
+    .font-color-buy-business {
+      color: var(--buy-business);
+    }
+
+    .font-color-no {
+      color: var(--buy-no);
+    }
+
+    .ml-info {
+      margin-left: 2.1rem;
+    }
+
+  </style>
+</head>
+<body>
+  <div class="container my-5">
+    <div class="row">
+      <div class="col-lg-3 border border-left-0"></div>
+      <div class="col-lg-3 border">
+        <h5 class="text-center font-weight-bold my-4">Basic</h5>
+        <h1 class="text-center font-weight-bold text-secondary my-2 price">$297</h1>
+        <p class="text-muted text-center billed mb-5">billed yearly</p>
+        <div class="mb-4 d-flex justify-content-center">
+          <a class="btn btn-buy-basic font-weight-bold" href="">Buy Basic</a>
+        </div>
+      </div>
+      <div class="col-lg-3 border">
+        <h5 class="text-center font-weight-bold my-4">Business</h5>
+        <h1 class="text-center font-weight-bold text-secondary my-2">$297</h1>
+        <p class="text-muted text-center billed mb-5">billed yearly</p>
+        <div class="mb-4 d-flex justify-content-center">
+          <a class="btn btn-buy-business font-weight-bold" href="">Buy Business</a>
+        </div>
+      </div>
+      <div class="col-lg-3 border border-right-0">
+        <h5 class="text-center font-weight-bold my-4">Pro</h5>
+        <h1 class="text-center font-weight-bold text-secondary my-2">$297</h1>
+        <p class="text-muted text-center billed mb-5">billed yearly</p>
+        <div class="mb-4 d-flex justify-content-center">
+          <a class="btn btn-buy-pro font-weight-bold" href="">Buy Pro</a>
+        </div>
+      </div>
+    </div>
+    <div class="row gen">
+      <div class="col-lg-3 py-1">
+        <h6 class="ml-3 font-weight-bold my-2">
+          <a class="collapse-link" href="#collapseExample" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="collapseExample" id="colGen">
+            <i class="angle fa fa-angle-down" id="angleUp"></i>&nbsp;&nbsp;General&nbsp;&nbsp;<i class="fa fa-question-circle-o font-color-buy-business"></i>
+          </a>
+        </h6>
+      </div>
+      <div class="col-lg-3 py-1">
+        <h6 class="text-center font-weight-bold my-2">Yes</h6>
+      </div>
+      <div class="col-lg-3 py-1">
+        <h6 class="text-center font-weight-bold my-2">Yes</h6>
+      </div>
+      <div class="col-lg-3 py-1">
+        <h6 class="text-center font-weight-bold my-2">Yes</h6>
+      </div>
+    </div>
+    <div class="row collapse" id="collapseExample">
+      <div class="col-lg-3 border border-left-0 py-1">
+        <h6 class="text-muted mt-2 ml-info">Number of sites</h6>
+      </div>
+      <div class="col-lg-3 border py-1">
+        <h6 class="text-muted mt-2 text-center">1</h6>
+      </div>
+      <div class="col-lg-3 border py-1">
+        <h6 class="text-muted mt-2 text-center">1</h6>
+      </div>
+      <div class="col-lg-3 border border-right-0 py-1">
+        <h6 class="text-muted mt-2 text-center">1</h6>
+      </div>
+    </div>
+  </div>
+
+  <div class="container my-5">
+    <div class="row" id="accordion">
+      <div class="col-lg-3 col-md-3">
+        <div class="row">
+          <div class="col border border-left-0" style="height: 258px;"></div>
+        </div>
+        <div class="row">
+          <div class="col gen py-1">
+            <h6 class="ml-3 font-weight-bold my-2">
+              <a class="collapse-link" aria-controls="multiCollapseGen1 multiCollapseGen2 multiCollapseGen3 multiCollapseGen4"  data-toggle="collapse" role="button" aria-expanded="false" id="colGen" data-target=".multi-collapse" style="cursor: pointer;">
+                <i class="angle fa fa-angle-down" id="angleUp"></i>&nbsp;&nbsp;General&nbsp;&nbsp;<i class="fa fa-question-circle-o font-color-buy-business"></i>
+              </a>
+            </h6>
+          </div>
+        </div>
+       <div class="row collapse multi-collapse" id="multiCollapseGen1" data-parent="#accordion">
+        <div class="col-12 border border-left-0 py-1">
+          <h6 class="text-muted mt-2 ml-info">Number of sites</h6>
+        </div>
+        <div class="col-12 border border-left-0 py-1">
+          <h6 class="text-muted mt-2 ml-info">Media Manager</h6>
+        </div>
+        <div class="col-12 border border-left-0 py-1">
+          <h6 class="text-muted mt-2 ml-info">3rd party integrations</h6>
+        </div>
+        <div class="col-12 border border-left-0 py-1">
+          <h6 class="text-muted mt-2 ml-info">Team members</h6>
+        </div>
+        <div class="col-12 border border-left-0 py-1">
+          <h6 class="text-muted mt-2 ml-info">'Powered by' logo</h6>
+        </div>
+
+       </div>
+        <div class="row" id="#accordion">
+          <div class="col gen py-1">
+            <h6 class="ml-3 font-weight-bold my-2">
+              <a class="collapse-link" aria-controls="multiCollapseFunn1 multiCollapseFunn2 multiCollapseFunn3 multiCollapseFunn4"  data-toggle="collapse" role="button" aria-expanded="false" id="colFunn" data-target=".multi-coll-funn" style="cursor: pointer;">
+                <i class="angle fa fa-angle-down" id="angleUp"></i>&nbsp;&nbsp;Funnel Builder&nbsp;&nbsp;<i class="fa fa-question-circle-o font-color-buy-business"></i>
+              </a>
+            </h6>
+          </div>
+        </div>
+       <div class="row collapse multi-coll-funn" id="multiCollapseFunn1" data-parent="#accordion">
+        <div class="col-12 border border-left-0 py-1">
+          <h6 class="text-muted mt-2 ml-info">No. of Funnels</h6>
+        </div>
+        <div class="col-12 border border-left-0 py-1">
+          <h6 class="text-muted mt-2 ml-info">No. of Templates Groups</h6>
+        </div>
+        <div class="col-12 border border-left-0 py-1">
+          <h6 class="text-muted mt-2 ml-info">Split Testing</h6>
+        </div>
+        <div class="col-12 border border-left-0 py-1">
+          <h6 class="text-muted mt-2 ml-info">Mobile optimizer</h6>
+        </div>
+        <div class="col-12 border border-left-0 py-1">
+          <h6 class="text-muted mt-2 ml-info">In-built Conversion Tools</h6>
+        </div>
+        <div class="col-12 border border-left-0 py-1">
+          <h6 class="text-muted mt-2 ml-info">HTML Download</h6>
+        </div>
+        <div class="col-12 border border-left-0 py-1">
+          <h6 class="text-muted mt-2 ml-info">Save As Template</h6>
+        </div>
+        <div class="col-12 border border-left-0 py-1">
+          <h6 class="text-muted mt-2 ml-info">Clone Page</h6>
+        </div>
+        <div class="col-12 border border-left-0 py-1">
+          <h6 class="text-muted mt-2 ml-info">Unique Visitors</h6>
+        </div>
+        <div class="col-12 border border-left-0 py-1">
+          <h6 class="text-muted mt-2 ml-info">Transfer Funnels</h6>
+        </div>
+
+       </div>
+        <div class="row" id="#accordion">
+          <div class="col gen py-1">
+            <h6 class="ml-3 font-weight-bold my-2">
+              <a class="collapse-link" aria-controls="multiCollapseProd1 multiCollapseProd2 multiCollapseProd3 multiCollapseProd4"  data-toggle="collapse" role="button" aria-expanded="false" id="colProd" data-target=".multi-coll-prod" style="cursor: pointer;">
+                <i class="angle fa fa-angle-down" id="angleUp"></i>&nbsp;&nbsp;Product Builder&nbsp;&nbsp;<i class="fa fa-question-circle-o font-color-buy-business"></i>
+              </a>
+            </h6>
+          </div>
+        </div>
+       <div class="row collapse multi-coll-prod" id="multiCollapseProd1" data-parent="#accordion">
+        <div class="col-12 border border-left-0 py-1">
+          <h6 class="text-muted mt-2 ml-info">No. of Products</h6>
+        </div>
+        <div class="col-12 border border-left-0 py-1">
+          <h6 class="text-muted mt-2 ml-info">Membership Module Products</h6>
+        </div>
+        <div class="col-12 border border-left-0 py-1">
+          <h6 class="text-muted mt-2 ml-info">Digital Products</h6>
+        </div>
+        <div class="col-12 border border-left-0 py-1">
+          <h6 class="text-muted mt-2 ml-info">Instasuite Checkout (Stripe & Paypal)</h6>
+        </div>
+        <div class="col-12 border border-left-0 py-1">
+          <h6 class="text-muted mt-2 ml-info">Multiple Price Points</h6>
+        </div>
+        <div class="col-12 border border-left-0 py-1">
+          <h6 class="text-muted mt-2 ml-info">Coupons and Discounts</h6>
+        </div>
+        <div class="col-12 border border-left-0 py-1">
+          <h6 class="text-muted mt-2 ml-info">Automation Actions</h6>
+        </div>
+        <div class="col-12 border border-left-0 py-1">
+          <h6 class="text-muted mt-2 ml-info">Digital Product Delivery - Email</h6>
+        </div>
+        <div class="col-12 border border-left-0 py-1">
+          <h6 class="text-muted mt-2 ml-info">Digital Product Delivery - Redirect URL</h6>
+        </div>
+        <div class="col-12 border border-left-0 py-1">
+          <h6 class="text-muted mt-2 ml-info">Digital Product Delivery - Upload File</h6>
+        </div>
+        <div class="col-12 border border-left-0 py-1">
+          <h6 class="text-muted mt-2 ml-info">Digital Product Delivery - ISPDN</h6>
+        </div>
+        <div class="col-12 border border-left-0 py-1">
+          <h6 class="text-muted mt-2 ml-info">Export Orders To CSV</h6>
+        </div>
+
+       </div>
+        <div class="row" id="#accordion">
+          <div class="col gen py-1">
+            <h6 class="ml-3 font-weight-bold my-2">
+              <a class="collapse-link" aria-controls="multiCollapseMem1 multiCollapseMem2 multiCollapseMem3 multiCollapseMem4"  data-toggle="collapse" role="button" aria-expanded="false" id="colMem" data-target=".multi-coll-mem" style="cursor: pointer;">
+                <i class="angle fa fa-angle-down" id="angleUp"></i>&nbsp;&nbsp;Member Builder&nbsp;&nbsp;<i class="fa fa-question-circle-o font-color-buy-business"></i>
+              </a>
+            </h6>
+          </div>
+        </div>
+
+       <div class="row collapse multi-coll-mem" id="multiCollapseMem1" data-parent="#accordion">
+        <div class="col-12 border border-left-0 py-1">
+          <h6 class="text-muted mt-2 ml-info">In-built SMTP</h6>
+        </div>
+        <div class="col-12 border border-left-0 py-1">
+          <h6 class="text-muted mt-2 ml-info">No. of themes</h6>
+        </div>
+        <div class="col-12 border border-left-0 py-1">
+          <h6 class="text-muted mt-2 ml-info">No. of members</h6>
+        </div>
+        <div class="col-12 border border-left-0 py-1">
+          <h6 class="text-muted mt-2 ml-info">Member Tags</h6>
+        </div>
+        <div class="col-12 border border-left-0 py-1">
+          <h6 class="text-muted mt-2 ml-info">Drip-Feed</h6>
+        </div>
+        <div class="col-12 border border-left-0 py-1">
+          <h6 class="text-muted mt-2 ml-info">Member Progress Tracking</h6>
+        </div>
+        <div class="col-12 border border-left-0 py-1">
+          <h6 class="text-muted mt-2 ml-info">Quiz Tracking</h6>
+        </div>
+        <div class="col-12 border border-left-0 py-1">
+          <h6 class="text-muted mt-2 ml-info">Design Editor</h6>
+        </div>
+       </div>
+        
+        <div class="row" id="#accordion">
+          <div class="col gen py-1">
+            <h6 class="ml-3 font-weight-bold my-2">
+              <a class="collapse-link" aria-controls="multiCollapseList1 multiCollapseList2 multiCollapseList3 multiCollapseList4"  data-toggle="collapse" role="button" aria-expanded="false" id="colList" data-target=".multi-coll-list" style="cursor: pointer;">
+                <i class="angle fa fa-angle-down" id="angleUp"></i>&nbsp;&nbsp;List Builder&nbsp;&nbsp;<i class="fa fa-question-circle-o font-color-buy-business"></i>
+              </a>
+            </h6>
+          </div>
+        </div>
+       
+        <div class="row collapse multi-coll-list" id="multiCollapseList1" data-parent="#accordion">
+          <div class="col-12 border border-left-0 py-1">
+            <h6 class="text-muted mt-2 ml-info">SMTP Setup</h6>
+          </div>
+          <div class="col-12 border border-left-0 py-1">
+            <h6 class="text-muted mt-2 ml-info">Blacklist Domain, Email, IP</h6>
+          </div>
+          <div class="col-12 border border-left-0 py-1">
+            <h6 class="text-muted mt-2 ml-info">Block Role-Based Email</h6>
+          </div>
+          <div class="col-12 border border-left-0 py-1">
+            <h6 class="text-muted mt-2 ml-info">No. of lists</h6>
+          </div>
+          <div class="col-12 border border-left-0 py-1">
+            <h6 class="text-muted mt-2 ml-info">No. of subscribers</h6>
+          </div>
+          <div class="col-12 border border-left-0 py-1">
+            <h6 class="text-muted mt-2 ml-info">Manual/Bulk Import</h6>
+          </div>
+          <div class="col-12 border border-left-0 py-1">
+            <h6 class="text-muted mt-2 ml-info">List Segmentation</h6>
+          </div>
+          <div class="col-12 border border-left-0 py-1">
+            <h6 class="text-muted mt-2 ml-info">Automations</h6>
+          </div>
+          <div class="col-12 border border-left-0 py-1">
+            <h6 class="text-muted mt-2 ml-info">Opt-In Forms</h6>
+          </div>
+          <div class="col-12 border border-left-0 py-1">
+            <h6 class="text-muted mt-2 ml-info">Broadcasts</h6>
+          </div>
+          <div class="col-12 border border-left-0 py-1">
+            <h6 class="text-muted mt-2 ml-info">Sequences</h6>
+          </div>
+          <div class="col-12 border border-left-0 py-1">
+            <h6 class="text-muted mt-2 ml-info">Save Email Templates</h6>
+          </div>
+       </div>
+        
+        <div class="row" id="#accordion">
+          <div class="col gen py-1">
+            <h6 class="ml-3 font-weight-bold my-2">
+              <a class="collapse-link" aria-controls="multiCollapseBlog1 multiCollapseBlog2 multiCollapseBlog3 multiCollapseBlog4"  data-toggle="collapse" role="button" aria-expanded="false" id="colList" data-target=".multi-coll-blog" style="cursor: pointer;">
+                <i class="angle fa fa-angle-down" id="angleUp"></i>&nbsp;&nbsp;Blog Builder&nbsp;&nbsp;<i class="fa fa-question-circle-o font-color-buy-business"></i>
+              </a>
+            </h6>
+          </div>
+        </div>
+
+        <div class="row collapse multi-coll-blog" id="multiCollapseBlog1" data-parent="#accordion">
+          <div class="col-12 border border-left-0 py-1">
+            <h6 class="text-muted mt-2 ml-info">Widgets</h6>
+          </div>
+          <div class="col-12 border border-left-0 py-1">
+            <h6 class="text-muted mt-2 ml-info">Menu</h6>
+          </div>
+          <div class="col-12 border border-left-0 py-1">
+            <h6 class="text-muted mt-2 ml-info">Theme customization</h6>
+          </div>
+          <div class="col-12 border border-left-0 py-1">
+            <h6 class="text-muted mt-2 ml-info">No. of Themes</h6>
+          </div>
+          <div class="col-12 border border-left-0 py-1">
+            <h6 class="text-muted mt-2 ml-info">No. of Posts</h6>
+          </div>
+          <div class="col-12 border border-left-0 py-1">
+            <h6 class="text-muted mt-2 ml-info">Post categories</h6>
+          </div>
+       </div>
+        
+
+
+        <div class="row" id="#accordion">
+          <div class="col gen py-1">
+            <h6 class="ml-3 font-weight-bold my-2">
+              <a class="collapse-link" aria-controls="multiCollapseAff1 multiCollapseAff2 multiCollapseAff3 multiCollapseAff4"  data-toggle="collapse" role="button" aria-expanded="false" id="colSup" data-target=".multi-coll-aff" style="cursor: pointer;">
+                <i class="angle fa fa-angle-down" id="angleUp"></i>&nbsp;&nbsp;Affiliate Center&nbsp;&nbsp;<i class="fa fa-question-circle-o font-color-buy-business"></i>
+              </a>
+            </h6>
+          </div>
+        </div>
+        
+        <div class="row collapse multi-coll-aff" id="multiCollapseAff1" data-parent="#accordion">
+          <div class="col-12 border border-left-0 py-1">
+            <h6 class="text-muted mt-2 ml-info">In-built SMTP</h6>
+          </div>
+          <div class="col-12 border border-left-0 py-1">
+            <h6 class="text-muted mt-2 ml-info">Promotion Tools</h6>
+          </div>
+          <div class="col-12 border border-left-0 py-1">
+            <h6 class="text-muted mt-2 ml-info">Manage Commissions</h6>
+          </div>
+          <div class="col-12 border border-left-0 py-1">
+            <h6 class="text-muted mt-2 ml-info">No. of affiliates</h6>
+          </div>
+          <div class="col-12 border border-left-0 py-1">
+            <h6 class="text-muted mt-2 ml-info">No. of themes</h6>
+          </div>
+          <div class="col-12 border border-left-0 py-1">
+            <h6 class="text-muted mt-2 ml-info">Theme customization</h6>
+          </div>
+       </div>
+
+
+        <div class="row" id="#accordion">
+          <div class="col gen py-1">
+            <h6 class="ml-3 font-weight-bold my-2">
+              <a class="collapse-link" aria-controls="multiCollapseSup1 multiCollapseSup2 multiCollapseSup3 multiCollapseSup4"  data-toggle="collapse" role="button" aria-expanded="false" id="colSup" data-target=".multi-coll-sup" style="cursor: pointer;">
+                <i class="angle fa fa-angle-down" id="angleUp"></i>&nbsp;&nbsp;Support Desk&nbsp;&nbsp;<i class="fa fa-question-circle-o font-color-buy-business"></i>
+              </a>
+            </h6>
+          </div>
+        </div>
+
+        <div class="row collapse multi-coll-sup" id="multiCollapseSup1" data-parent="#accordion">
+          <div class="col-12 border border-left-0 py-1">
+            <h6 class="text-muted mt-2 ml-info">No. of staff</h6>
+          </div>
+          <div class="col-12 border border-left-0 py-1">
+            <h6 class="text-muted mt-2 ml-info">In-built SMTP</h6>
+          </div>
+          <div class="col-12 border border-left-0 py-1">
+            <h6 class="text-muted mt-2 ml-info">No. of canned responses</h6>
+          </div>
+          <div class="col-12 border border-left-0 py-1">
+            <h6 class="text-muted mt-2 ml-info">Knowledgebase</h6>
+          </div>
+          <div class="col-12 border border-left-0 py-1">
+            <h6 class="text-muted mt-2 ml-info">No. of themes</h6>
+          </div>
+       </div>
+        
+
+        <div class="row" id="#accordion">
+          <div class="col gen py-1">
+            <h6 class="ml-3 font-weight-bold my-2">
+              <a class="collapse-link" aria-controls="multiCollapseSmart1 multiCollapseSmart2 multiCollapseSmart3 multiCollapseSmart4"  data-toggle="collapse" role="button" aria-expanded="false" id="colSmart" data-target=".multi-coll-smart" style="cursor: pointer;">
+                <i class="angle fa fa-angle-down" id="angleUp"></i>&nbsp;&nbsp;Smart Academy&nbsp;&nbsp;<i class="fa fa-question-circle-o font-color-buy-business"></i>
+              </a>
+            </h6>
+          </div>
+        </div>
+        
+        <div class="row collapse multi-coll-smart" id="multiCollapseSmart1" data-parent="#accordion">
+          <div class="col-12 border border-left-0 py-1">
+            <h6 class="text-muted mt-2 ml-info">4-Figure Academy</h6>
+          </div>
+          <div class="col-12 border border-left-0 py-1">
+            <h6 class="text-muted mt-2 ml-info">5-Figure Academy</h6>
+          </div>
+          <div class="col-12 border border-left-0 py-1">
+            <h6 class="text-muted mt-2 ml-info">6-Figure Academy</h6>
+          </div>
+       </div>
+      
+      </div>
+      <div class="col-lg-3 col-md-3">
+        <div class="row">
+          <div class="col border">
+            <h5 class="text-center font-weight-bold my-4">Basic</h5>
+            <h1 class="text-center font-weight-bold text-secondary my-2 price">$297</h1>
+            <p class="text-muted text-center billed mb-5">billed yearly</p>
+            <div class="mb-4 d-flex justify-content-center">
+              <a class="btn btn-buy-basic font-weight-bold" href="">Buy Basic</a>
+            </div>
+          </div>
+        </div>
+        <div class="row gen">
+          <div class="col py-1">
+           <h6 class="text-center font-weight-bold my-2">Yes</h6>
+          </div>
+        </div>
+        <div class="row collapse multi-collapse" id="multiCollapseGen2" data-parent="#accordion">
+          <div class="col-12 py-1 border">
+           <h6 class="text-muted mt-2 text-center">1</h6>
+          </div>
+          <div class="col-12 py-1 border">
+           <h6 class="text-muted mt-2 text-center">
+            <i class="fa fa-check font-color-buy-business"></i>
+           </h6>
+          </div>
+          <div class="col-12 py-1 border">
+           <h6 class="text-muted mt-2 text-center">
+            <i class="fa fa-check font-color-buy-business"></i>
+           </h6>
+          </div>
+          <div class="col-12 py-1 border">
+           <h6 class="text-muted mt-2 text-center">0</h6>
+          </div>
+          <div class="col-12 py-1 border">
+           <h6 class="text-muted mt-2 text-center">
+             Always Active
+           </h6>
+          </div>
+        </div>
+        
+        <div class="row gen">
+          <div class="col py-1">
+           <h6 class="text-center font-weight-bold my-2">Yes</h6>
+          </div>
+        </div>
+        <div class="row collapse multi-coll-funn" id="multiCollapseFunn2" data-parent="#accordion">
+          <div class="col-12 py-1 border">
+           <h6 class="text-muted mt-2 text-center">10</h6>
+          </div>
+          <div class="col-12 py-1 border">
+           <h6 class="text-muted mt-2 text-center">
+            5
+           </h6>
+          </div>
+          <div class="col-12 py-1 border">
+           <h6 class="text-muted mt-2 text-center">
+            <i class="fa fa-close font-color-no"></i>
+           </h6>
+          </div>
+          <div class="col-12 py-1 border">
+           <h6 class="text-muted mt-2 text-center">
+            <i class="fa fa-check font-color-buy-business"></i>
+           </h6>
+          </div>
+          <div class="col-12 py-1 border">
+           <h6 class="text-muted mt-2 text-center">
+            <i class="fa fa-check font-color-buy-business"></i>
+           </h6>
+          </div>
+          <div class="col-12 py-1 border">
+           <h6 class="text-muted mt-2 text-center">
+            <i class="fa fa-close font-color-no"></i>
+           </h6>
+          </div>
+          <div class="col-12 py-1 border">
+           <h6 class="text-muted mt-2 text-center">
+            <i class="fa fa-close font-color-no"></i>
+           </h6>
+          </div>
+          <div class="col-12 py-1 border">
+           <h6 class="text-muted mt-2 text-center">
+            <i class="fa fa-check font-color-buy-business"></i>
+           </h6>
+          </div>
+          <div class="col-12 py-1 border">
+           <h6 class="text-muted mt-2 text-center">25,000</h6>
+          </div>
+          <div class="col-12 py-1 border">
+           <h6 class="text-muted mt-2 text-center">
+            <i class="fa fa-close font-color-no"></i>
+           </h6>
+          </div>
+        </div>
+        <div class="row gen">
+          <div class="col py-1">
+           <h6 class="text-center font-weight-bold my-2">Yes</h6>
+          </div>
+        </div>
+        <div class="row collapse multi-coll-prod" id="multiCollapseProd2" data-parent="#accordion">
+          <div class="col-12 py-1 border">
+           <h6 class="text-muted mt-2 text-center">10</h6>
+          </div>
+          <div class="col-12 py-1 border">
+           <h6 class="text-muted mt-2 text-center">
+            <i class="fa fa-check font-color-buy-business"></i>
+           </h6>
+          </div>
+          <div class="col-12 py-1 border">
+           <h6 class="text-muted mt-2 text-center">
+            <i class="fa fa-check font-color-buy-business"></i>
+           </h6>
+          </div>
+          <div class="col-12 py-1 border" style="height: 64.4px">
+           <h6 class="text-muted mt-3 text-center">
+            <i class="fa fa-check font-color-buy-business"></i>
+           </h6>
+          </div>
+          <div class="col-12 py-1 border">
+           <h6 class="text-muted mt-2 text-center">
+            <i class="fa fa-check font-color-buy-business"></i>
+           </h6>
+          </div>
+          <div class="col-12 py-1 border">
+           <h6 class="text-muted mt-2 text-center">
+            <i class="fa fa-close font-color-no"></i>
+           </h6>
+          </div>
+          <div class="col-12 py-1 border">
+           <h6 class="text-muted mt-2 text-center">
+            <i class="fa fa-close font-color-no"></i>
+           </h6>
+          </div>
+          <div class="col-12 py-1 border" style="height: 64.4px">
+           <h6 class="text-muted mt-3 text-center">
+            <i class="fa fa-check font-color-buy-business"></i>
+           </h6>
+          </div>
+          <div class="col-12 py-1 border" style="height: 64.4px">
+           <h6 class="text-muted mt-3 text-center">
+            <i class="fa fa-check font-color-buy-business"></i>
+           </h6>
+          </div>
+          <div class="col-12 py-1 border" style="height: 64.4px">
+           <h6 class="text-muted mt-3 text-center">
+            <i class="fa fa-close font-color-no"></i>
+           </h6>
+          </div>
+          <div class="col-12 py-1 border" style="height: 64.4px">
+           <h6 class="text-muted mt-3 text-center">
+            <i class="fa fa-close font-color-no"></i>
+           </h6>
+          </div>
+          <div class="col-12 py-1 border">
+           <h6 class="text-muted mt-2 text-center">
+            <i class="fa fa-check font-color-buy-business"></i>
+           </h6>
+          </div>
+        </div>
+
+         <div class="row gen">
+          <div class="col py-1">
+           <h6 class="text-center font-weight-bold my-2">Yes</h6>
+          </div>
+        </div>
+        <div class="row collapse multi-coll-mem" id="multiCollapseMem2" data-parent="#accordion">
+          <div class="col-12 py-1 border border-right-0">
+           <h6 class="text-muted mt-2 text-center">
+            <i class="fa fa-check font-color-buy-business"></i>
+           </h6>
+          </div>
+          <div class="col-12 py-1 border border-right-0">
+           <h6 class="text-muted mt-2 text-center">
+             1
+           </h6>
+          </div>
+          <div class="col-12 py-1 border border-right-0">
+           <h6 class="text-muted mt-2 text-center">1,000</h6>
+          </div>
+          <div class="col-12 py-1 border border-right-0">
+           <h6 class="text-muted mt-2 text-center">
+            <i class="fa fa-close font-color-no"></i>
+           </h6>
+          </div>
+          <div class="col-12 py-1 border border-right-0">
+           <h6 class="text-muted mt-2 text-center">
+            <i class="fa fa-close font-color-no"></i>
+           </h6>
+          </div>
+          <div class="col-12 py-1 border border-right-0">
+           <h6 class="text-muted mt-2 text-center">
+            <i class="fa fa-check font-color-buy-business"></i>
+           </h6>
+          </div>
+          <div class="col-12 py-1 border border-right-0">
+           <h6 class="text-muted mt-2 text-center">
+            <i class="fa fa-check font-color-buy-business"></i>
+           </h6>
+          </div>
+          <div class="col-12 py-1 border border-right-0">
+           <h6 class="text-muted mt-2 text-center">
+            <i class="fa fa-check font-color-buy-business"></i>
+           </h6>
+          </div>
+        </div>
+
+        <div class="row gen">
+          <div class="col py-1">
+           <h6 class="text-center font-weight-bold my-2">Yes</h6>
+          </div>
+        </div>
+        <div class="row collapse multi-coll-list" id="multiCollapseList2" data-parent="#accordion">
+          <div class="col-12 py-1 border border-right-0">
+           <h6 class="text-muted mt-2 text-center">
+            <i class="fa fa-check font-color-buy-business"></i>
+           </h6>
+          </div>
+          <div class="col-12 py-1 border border-right-0">
+           <h6 class="text-muted mt-2 text-center">
+            <i class="fa fa-check font-color-buy-business"></i>
+           </h6>
+          </div>
+          <div class="col-12 py-1 border border-right-0">
+           <h6 class="text-muted mt-2 text-center">
+            <i class="fa fa-check font-color-buy-business"></i>
+           </h6>
+          </div>
+          <div class="col-12 py-1 border border-right-0">
+           <h6 class="text-muted mt-2 text-center">10</h6>
+          </div>
+          <div class="col-12 py-1 border border-right-0">
+           <h6 class="text-muted mt-2 text-center">1,000</h6>
+          </div>
+          <div class="col-12 py-1 border border-right-0">
+           <h6 class="text-muted mt-2 text-center">
+            <i class="fa fa-check font-color-buy-business"></i>
+           </h6>
+          </div>
+          <div class="col-12 py-1 border border-right-0">
+           <h6 class="text-muted mt-2 text-center">
+            <i class="fa fa-close font-color-no"></i>
+           </h6>
+          </div>
+          <div class="col-12 py-1 border border-right-0">
+           <h6 class="text-muted mt-2 text-center">
+            <i class="fa fa-close font-color-no"></i>
+           </h6>
+          </div>
+          <div class="col-12 py-1 border border-right-0">
+           <h6 class="text-muted mt-2 text-center">Optional</h6>
+          </div>
+          <div class="col-12 py-1 border border-right-0">
+           <h6 class="text-muted mt-2 text-center">
+            <i class="fa fa-check font-color-buy-business"></i>
+           </h6>
+          </div>
+          <div class="col-12 py-1 border border-right-0">
+           <h6 class="text-muted mt-2 text-center">
+            <i class="fa fa-check font-color-buy-business"></i>
+           </h6>
+          </div>
+          <div class="col-12 py-1 border border-right-0">
+           <h6 class="text-muted mt-2 text-center">
+            <i class="fa fa-check font-color-buy-business"></i>
+           </h6>
+          </div>
+        </div>
+
+        <div class="row gen">
+          <div class="col py-1">
+           <h6 class="text-center font-weight-bold my-2">Yes</h6>
+          </div>
+        </div>
+
+        <div class="row collapse multi-coll-blog" id="multiCollapseBlog2" data-parent="#accordion">
+          <div class="col-12 py-1 border border-right-0">
+           <h6 class="text-muted mt-2 text-center">
+            <i class="fa fa-check font-color-buy-business"></i>
+           </h6>
+          </div>
+          <div class="col-12 py-1 border border-right-0">
+           <h6 class="text-muted mt-2 text-center">
+            <i class="fa fa-check font-color-buy-business"></i>
+           </h6>
+          </div>
+          <div class="col-12 py-1 border border-right-0">
+           <h6 class="text-muted mt-2 text-center">
+            <i class="fa fa-check font-color-buy-business"></i>
+           </h6>
+          </div>
+          <div class="col-12 py-1 border border-right-0">
+           <h6 class="text-muted mt-2 text-center">1</h6>
+          </div>
+          <div class="col-12 py-1 border border-right-0">
+           <h6 class="text-muted mt-2 text-center">Unlimited</h6>
+          </div>
+          <div class="col-12 py-1 border border-right-0">
+           <h6 class="text-muted mt-2 text-center">
+            <i class="fa fa-check font-color-buy-business"></i>
+           </h6>
+          </div>
+        </div>
+
+
+        <div class="row gen">
+          <div class="col py-1">
+           <h6 class="text-center font-weight-bold my-2">No</h6>
+          </div>
+        </div>
+        
+        <div class="row collapse multi-coll-aff" id="multiCollapseAff2" data-parent="#accordion">
+          <div class="col-12 py-1 border border-right-0">
+           <h6 class="text-muted mt-2 text-center">&nbsp;</h6>
+          </div>
+          <div class="col-12 py-1 border border-right-0">
+           <h6 class="text-muted mt-2 text-center">
+             &nbsp;
+           </h6>
+          </div>
+          <div class="col-12 py-1 border border-right-0">
+           <h6 class="text-muted mt-2 text-center">
+             &nbsp;
+           </h6>
+          </div>
+          <div class="col-12 py-1 border border-right-0">
+           <h6 class="text-muted mt-2 text-center">&nbsp;</h6>
+          </div>
+          <div class="col-12 py-1 border border-right-0">
+           <h6 class="text-muted mt-2 text-center">&nbsp;</h6>
+          </div>
+          <div class="col-12 py-1 border border-right-0">
+           <h6 class="text-muted mt-2 text-center">
+             &nbsp;
+           </h6>
+          </div>
+        </div>
+
+
+        <div class="row gen">
+          <div class="col py-1">
+           <h6 class="text-center font-weight-bold my-2">No</h6>
+          </div>
+        </div>
+
+        <div class="row collapse multi-coll-sup" id="multiCollapseSup2" data-parent="#accordion">
+          <div class="col-12 py-1 border border-right-0">
+           <h6 class="text-muted mt-2 text-center">&nbsp;</h6>
+          </div>
+          <div class="col-12 py-1 border border-right-0">
+           <h6 class="text-muted mt-2 text-center">
+             &nbsp;
+           </h6>
+          </div>
+          <div class="col-12 py-1 border border-right-0">
+           <h6 class="text-muted mt-2 text-center">
+             &nbsp;
+           </h6>
+          </div>
+          <div class="col-12 py-1 border border-right-0">
+           <h6 class="text-muted mt-2 text-center">&nbsp;</h6>
+          </div>
+          <div class="col-12 py-1 border border-right-0">
+           <h6 class="text-muted mt-2 text-center">&nbsp;</h6>
+          </div>
+        </div>
+
+        <div class="row gen">
+          <div class="col py-1">
+           <h6 class="text-center font-weight-bold my-2" >&nbsp;</h6>
+          </div>
+        </div>
+        
+        <div class="row collapse multi-coll-smart" id="multiCollapseSmart2" data-parent="#accordion">
+          <div class="col-12 py-1 border border-right-0">
+           <h6 class="text-muted mt-2 text-center">Yes</h6>
+          </div>
+          <div class="col-12 py-1 border border-right-0">
+           <h6 class="text-muted mt-2 text-center">
+             &nbsp;
+           </h6>
+          </div>
+          <div class="col-12 py-1 border border-right-0">
+           <h6 class="text-muted mt-2 text-center">
+             &nbsp;
+           </h6>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="col-lg-3 col-md-3">
+        <div class="row">
+          <div class="col border">
+            <h5 class="text-center font-weight-bold my-4">Business</h5>
+            <h1 class="text-center font-weight-bold text-secondary my-2">$697</h1>
+            <p class="text-muted text-center billed mb-5">billed yearly</p>
+            <div class="mb-4 d-flex justify-content-center">
+              <a class="btn btn-buy-business font-weight-bold" href="">Buy Business</a>
+            </div>
+          </div>
+        </div>
+        <div class="row gen">
+          <div class="col py-1">
+           <h6 class="text-center font-weight-bold my-2">Yes</h6>
+          </div>
+        </div>
+        <div class="row collapse multi-collapse" id="multiCollapseGen3" data-parent="#accordion">
+          <div class="col-12 py-1 border">
+           <h6 class="text-muted mt-2 text-center">1</h6>
+          </div>
+          <div class="col-12 py-1 border">
+           <h6 class="text-muted mt-2 text-center">
+            <i class="fa fa-check font-color-buy-business"></i>
+           </h6>
+          </div>
+          <div class="col-12 py-1 border">
+           <h6 class="text-muted mt-2 text-center">
+            <i class="fa fa-check font-color-buy-business"></i>
+           </h6>
+          </div>
+          <div class="col-12 py-1 border">
+           <h6 class="text-muted mt-2 text-center">0</h6>
+          </div>
+          <div class="col-12 py-1 border">
+           <h6 class="text-muted mt-2 text-center">Optional</h6>
+          </div>
+        </div>
+
+        <div class="row gen">
+          <div class="col py-1">
+           <h6 class="text-center font-weight-bold my-2">Yes</h6>
+          </div>
+        </div>
+        <div class="row collapse multi-coll-funn" id="multiCollapseFunn3" data-parent="#accordion">
+          <div class="col-12 py-1 border">
+           <h6 class="text-muted mt-2 text-center">100</h6>
+          </div>
+          <div class="col-12 py-1 border">
+           <h6 class="text-muted mt-2 text-center">
+             15
+           </h6>
+          </div>
+          <div class="col-12 py-1 border">
+           <h6 class="text-muted mt-2 text-center">
+            <i class="fa fa-check font-color-buy-business"></i>
+           </h6>
+          </div>
+          <div class="col-12 py-1 border">
+           <h6 class="text-muted mt-2 text-center">
+            <i class="fa fa-check font-color-buy-business"></i>
+           </h6>
+          </div>
+          <div class="col-12 py-1 border">
+           <h6 class="text-muted mt-2 text-center">
+            <i class="fa fa-check font-color-buy-business"></i>
+           </h6>
+          </div>
+          <div class="col-12 py-1 border">
+           <h6 class="text-muted mt-2 text-center">
+            <i class="fa fa-check font-color-buy-business"></i>
+           </h6>
+          </div>
+          <div class="col-12 py-1 border">
+           <h6 class="text-muted mt-2 text-center">
+            <i class="fa fa-check font-color-buy-business"></i>
+           </h6>
+          </div>
+          <div class="col-12 py-1 border">
+           <h6 class="text-muted mt-2 text-center">
+            <i class="fa fa-check font-color-buy-business"></i>
+           </h6>
+          </div>
+          <div class="col-12 py-1 border">
+           <h6 class="text-muted mt-2 text-center">100,000</h6>
+          </div>
+          <div class="col-12 py-1 border">
+           <h6 class="text-muted mt-2 text-center">
+            <i class="fa fa-close font-color-no"></i>
+           </h6>
+          </div>
+
+
+        </div>
+        
+        <div class="row gen">
+          <div class="col py-1">
+           <h6 class="text-center font-weight-bold my-2">Yes</h6>
+          </div>
+        </div>
+        <div class="row collapse multi-coll-prod" id="multiCollapseProd3" data-parent="#accordion">
+          <div class="col-12 py-1 border">
+           <h6 class="text-muted mt-2 text-center">50</h6>
+          </div>
+          <div class="col-12 py-1 border">
+           <h6 class="text-muted mt-2 text-center">
+            <i class="fa fa-check font-color-buy-business"></i>
+           </h6>
+          </div>
+          <div class="col-12 py-1 border">
+           <h6 class="text-muted mt-2 text-center">
+            <i class="fa fa-check font-color-buy-business"></i>
+           </h6>
+          </div>
+          <div class="col-12 py-1 border" style="height: 64.4px">
+           <h6 class="text-muted mt-2 text-center">
+            <i class="fa fa-check font-color-buy-business"></i>
+           </h6>
+          </div>
+          <div class="col-12 py-1 border">
+           <h6 class="text-muted mt-2 text-center">
+            <i class="fa fa-check font-color-buy-business"></i>
+           </h6>
+          </div>
+          <div class="col-12 py-1 border">
+           <h6 class="text-muted mt-2 text-center">
+            <i class="fa fa-check font-color-buy-business"></i>
+           </h6>
+          </div>
+          <div class="col-12 py-1 border">
+           <h6 class="text-muted mt-2 text-center">
+            <i class="fa fa-check font-color-buy-business"></i>
+           </h6>
+          </div>
+          <div class="col-12 py-1 border" style="height: 64.4px">
+           <h6 class="text-muted mt-2 text-center">
+            <i class="fa fa-check font-color-buy-business"></i>
+           </h6>
+          </div>
+          <div class="col-12 py-1 border" style="height: 64.4px">
+           <h6 class="text-muted mt-2 text-center">
+            <i class="fa fa-check font-color-buy-business"></i>
+           </h6>
+          </div>
+          <div class="col-12 py-1 border" style="height: 64.4px">
+           <h6 class="text-muted mt-2 text-center">
+            <i class="fa fa-check font-color-buy-business"></i>
+           </h6>
+          </div>
+          <div class="col-12 py-1 border" style="height: 64.4px">
+           <h6 class="text-muted mt-2 text-center">
+            <i class="fa fa-check font-color-buy-business"></i>
+           </h6>
+          </div>
+          <div class="col-12 py-1 border">
+           <h6 class="text-muted mt-2 text-center">
+            <i class="fa fa-check font-color-buy-business"></i>
+           </h6>
+          </div>
+        </div>
+
+
+        <div class="row gen">
+          <div class="col py-1">
+           <h6 class="text-center font-weight-bold my-2">Yes</h6>
+          </div>
+        </div>
+        <div class="row collapse multi-coll-mem" id="multiCollapseMem3" data-parent="#accordion">
+          <div class="col-12 py-1 border border-right-0">
+           <h6 class="text-muted mt-2 text-center">
+            <i class="fa fa-check font-color-buy-business"></i>
+           </h6>
+          </div>
+          <div class="col-12 py-1 border border-right-0">
+           <h6 class="text-muted mt-2 text-center">
+             3
+           </h6>
+          </div>
+          <div class="col-12 py-1 border border-right-0">
+           <h6 class="text-muted mt-2 text-center">
+             5,000
+           </h6>
+          </div>
+          <div class="col-12 py-1 border border-right-0">
+           <h6 class="text-muted mt-2 text-center">
+            <i class="fa fa-check font-color-buy-business"></i>
+           </h6>
+          </div>
+          <div class="col-12 py-1 border border-right-0">
+           <h6 class="text-muted mt-2 text-center">
+            <i class="fa fa-check font-color-buy-business"></i>
+           </h6>
+          </div>
+          <div class="col-12 py-1 border border-right-0">
+           <h6 class="text-muted mt-2 text-center">
+            <i class="fa fa-check font-color-buy-business"></i>
+           </h6>
+          </div>
+          <div class="col-12 py-1 border border-right-0">
+           <h6 class="text-muted mt-2 text-center">
+            <i class="fa fa-check font-color-buy-business"></i>
+           </h6>
+          </div>
+          <div class="col-12 py-1 border border-right-0">
+           <h6 class="text-muted mt-2 text-center">
+            <i class="fa fa-check font-color-buy-business"></i>
+           </h6>
+          </div>
+        </div>
+
+        <div class="row gen">
+          <div class="col py-1">
+           <h6 class="text-center font-weight-bold my-2">Yes</h6>
+          </div>
+        </div>
+        <div class="row collapse multi-coll-list" id="multiCollapseList3" data-parent="#accordion">
+          <div class="col-12 py-1 border border-right-0">
+           <h6 class="text-muted mt-2 text-center">
+            <i class="fa fa-check font-color-buy-business"></i>
+           </h6>
+          </div>
+          <div class="col-12 py-1 border border-right-0">
+           <h6 class="text-muted mt-2 text-center">
+            <i class="fa fa-check font-color-buy-business"></i>
+           </h6>
+          </div>
+          <div class="col-12 py-1 border border-right-0">
+           <h6 class="text-muted mt-2 text-center">
+            <i class="fa fa-check font-color-buy-business"></i>
+           </h6>
+          </div>
+          <div class="col-12 py-1 border border-right-0">
+           <h6 class="text-muted mt-2 text-center">100</h6>
+          </div>
+          <div class="col-12 py-1 border border-right-0">
+           <h6 class="text-muted mt-2 text-center">5000</h6>
+          </div>
+          <div class="col-12 py-1 border border-right-0">
+           <h6 class="text-muted mt-2 text-center">
+            <i class="fa fa-check font-color-buy-business"></i>
+           </h6>
+          </div>
+          <div class="col-12 py-1 border border-right-0">
+           <h6 class="text-muted mt-2 text-center">
+            <i class="fa fa-check font-color-buy-business"></i>
+           </h6>
+          </div>
+          <div class="col-12 py-1 border border-right-0">
+           <h6 class="text-muted mt-2 text-center">
+            <i class="fa fa-check font-color-buy-business"></i>
+           </h6>
+          </div>
+          <div class="col-12 py-1 border border-right-0">
+           <h6 class="text-muted mt-2 text-center">
+            <i class="fa fa-check font-color-buy-business"></i>
+           </h6>
+          </div>
+          <div class="col-12 py-1 border border-right-0">
+           <h6 class="text-muted mt-2 text-center">
+            <i class="fa fa-check font-color-buy-business"></i>
+           </h6>
+          </div>
+          <div class="col-12 py-1 border border-right-0">
+           <h6 class="text-muted mt-2 text-center">
+            <i class="fa fa-check font-color-buy-business"></i>
+           </h6>
+          </div>
+          <div class="col-12 py-1 border border-right-0">
+           <h6 class="text-muted mt-2 text-center">
+            <i class="fa fa-check font-color-buy-business"></i>
+           </h6>
+          </div>
+        </div>
+        
+        <div class="row gen">
+          <div class="col py-1">
+           <h6 class="text-center font-weight-bold my-2">Yes</h6>
+          </div>
+        </div>
+
+        <div class="row collapse multi-coll-blog" id="multiCollapseBlog3" data-parent="#accordion">
+          <div class="col-12 py-1 border border-right-0">
+           <h6 class="text-muted mt-2 text-center">
+            <i class="fa fa-check font-color-buy-business"></i>
+           </h6>
+          </div>
+          <div class="col-12 py-1 border border-right-0">
+           <h6 class="text-muted mt-2 text-center">
+            <i class="fa fa-check font-color-buy-business"></i>
+           </h6>
+          </div>
+          <div class="col-12 py-1 border border-right-0">
+           <h6 class="text-muted mt-2 text-center">
+            <i class="fa fa-check font-color-buy-business"></i>
+           </h6>
+          </div>
+          <div class="col-12 py-1 border border-right-0">
+           <h6 class="text-muted mt-2 text-center">3</h6>
+          </div>
+          <div class="col-12 py-1 border border-right-0">
+           <h6 class="text-muted mt-2 text-center">Unlimited</h6>
+          </div>
+          <div class="col-12 py-1 border border-right-0">
+           <h6 class="text-muted mt-2 text-center">
+            <i class="fa fa-check font-color-buy-business"></i>
+           </h6>
+          </div>
+        </div>
+
+
+        <div class="row gen">
+          <div class="col py-1">
+           <h6 class="text-center font-weight-bold my-2">Yes</h6>
+          </div>
+        </div>
+        
+        <div class="row collapse multi-coll-aff" id="multiCollapseAff3" data-parent="#accordion">
+          <div class="col-12 py-1 border border-right-0">
+           <h6 class="text-muted mt-2 text-center">
+            <i class="fa fa-check font-color-buy-business"></i>
+           </h6>
+          </div>
+          <div class="col-12 py-1 border border-right-0">
+           <h6 class="text-muted mt-2 text-center">
+            <i class="fa fa-check font-color-buy-business"></i>
+           </h6>
+          </div>
+          <div class="col-12 py-1 border border-right-0">
+           <h6 class="text-muted mt-2 text-center">
+            <i class="fa fa-check font-color-buy-business"></i>
+           </h6>
+          </div>
+          <div class="col-12 py-1 border border-right-0">
+           <h6 class="text-muted mt-2 text-center">
+             1,000
+           </h6>
+          </div>
+          <div class="col-12 py-1 border border-right-0">
+           <h6 class="text-muted mt-2 text-center">1</h6>
+          </div>
+          <div class="col-12 py-1 border border-right-0">
+           <h6 class="text-muted mt-2 text-center">
+            <i class="fa fa-check font-color-buy-business"></i>
+           </h6>
+          </div>
+        </div>
+
+
+        <div class="row gen">
+          <div class="col py-1">
+           <h6 class="text-center font-weight-bold my-2">Yes</h6>
+          </div>
+        </div>
+
+        <div class="row collapse multi-coll-sup" id="multiCollapseSup3" data-parent="#accordion">
+          <div class="col-12 py-1 border border-right-0">
+           <h6 class="text-muted mt-2 text-center">3</h6>
+          </div>
+          <div class="col-12 py-1 border border-right-0">
+           <h6 class="text-muted mt-2 text-center">
+            <i class="fa fa-check font-color-buy-business"></i>
+           </h6>
+          </div>
+          <div class="col-12 py-1 border border-right-0">
+           <h6 class="text-muted mt-2 text-center">
+             20
+           </h6>
+          </div>
+          <div class="col-12 py-1 border border-right-0">
+           <h6 class="text-muted mt-2 text-center">
+            <i class="fa fa-check font-color-buy-business"></i>
+           </h6>
+          </div>
+          <div class="col-12 py-1 border border-right-0">
+           <h6 class="text-muted mt-2 text-center">
+             1
+           </h6>
+          </div>
+        </div>
+
+        <div class="row gen">
+          <div class="col py-1">
+           <h6 class="text-center font-weight-bold my-2" >&nbsp;</h6>
+          </div>
+        </div>
+        
+        <div class="row collapse multi-coll-smart" id="multiCollapseSmart3" data-parent="#accordion">
+          <div class="col-12 py-1 border border-right-0">
+           <h6 class="text-muted mt-2 text-center">
+             &nbsp;
+           </h6>
+          </div>
+          <div class="col-12 py-1 border border-right-0">
+           <h6 class="text-muted mt-2 text-center">Yes</h6>
+          </div>
+          <div class="col-12 py-1 border border-right-0">
+           <h6 class="text-muted mt-2 text-center">
+             &nbsp;
+           </h6>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="col-lg-3 col-md-3">
+        <div class="row">
+          <div class="col border border-right-0">
+            <h5 class="text-center font-weight-bold my-4">Pro</h5>
+            <h1 class="text-center font-weight-bold text-secondary my-2">$997</h1>
+            <p class="text-muted text-center billed mb-5">billed yearly</p>
+            <div class="mb-4 d-flex justify-content-center">
+              <a class="btn btn-buy-pro font-weight-bold" href="">Buy Pro</a>
+            </div>
+          </div>
+        </div>
+        <div class="row gen">
+          <div class="col py-1">
+           <h6 class="text-center font-weight-bold my-2">Yes</h6>
+          </div>
+        </div>
+        <div class="row collapse multi-collapse" id="multiCollapseGen4" data-parent="#accordion">
+          <div class="col-12 py-1 border border-right-0">
+           <h6 class="text-muted mt-2 text-center">15</h6>
+          </div>
+          <div class="col-12 py-1 border border-right-0">
+           <h6 class="text-muted mt-2 text-center">
+            <i class="fa fa-check font-color-buy-business"></i>
+           </h6>
+          </div>
+          <div class="col-12 py-1 border border-right-0">
+           <h6 class="text-muted mt-2 text-center">
+            <i class="fa fa-check font-color-buy-business"></i>
+           </h6>
+          </div>
+          <div class="col-12 py-1 border border-right-0">
+           <h6 class="text-muted mt-2 text-center">10</h6>
+          </div>
+          <div class="col-12 py-1 border border-right-0">
+           <h6 class="text-muted mt-2 text-center">Optional</h6>
+          </div>
+        </div>
+
+        <div class="row gen">
+          <div class="col py-1">
+           <h6 class="text-center font-weight-bold my-2">Yes</h6>
+          </div>
+        </div>
+        <div class="row collapse multi-coll-funn" id="multiCollapseFunn4" data-parent="#accordion">
+          <div class="col-12 py-1 border border-right-0">
+           <h6 class="text-muted mt-2 text-center">500</h6>
+          </div>
+          <div class="col-12 py-1 border border-right-0">
+           <h6 class="text-muted mt-2 text-center">
+             99,999
+           </h6>
+          </div>
+          <div class="col-12 py-1 border border-right-0">
+           <h6 class="text-muted mt-2 text-center">
+            <i class="fa fa-check font-color-buy-business"></i>
+           </h6>
+          </div>
+          <div class="col-12 py-1 border border-right-0">
+           <h6 class="text-muted mt-2 text-center">
+            <i class="fa fa-check font-color-buy-business"></i>
+           </h6>
+          </div>
+          <div class="col-12 py-1 border border-right-0">
+           <h6 class="text-muted mt-2 text-center">
+            <i class="fa fa-check font-color-buy-business"></i>
+           </h6>
+          </div>
+          <div class="col-12 py-1 border border-right-0">
+           <h6 class="text-muted mt-2 text-center">
+            <i class="fa fa-check font-color-buy-business"></i>
+           </h6>
+          </div>
+          <div class="col-12 py-1 border border-right-0">
+           <h6 class="text-muted mt-2 text-center">
+            <i class="fa fa-check font-color-buy-business"></i>
+           </h6>
+          </div>
+          <div class="col-12 py-1 border border-right-0">
+           <h6 class="text-muted mt-2 text-center">
+            <i class="fa fa-check font-color-buy-business"></i>
+           </h6>
+          </div>
+          <div class="col-12 py-1 border border-right-0">
+           <h6 class="text-muted mt-2 text-center">Unlimited</h6>
+          </div>
+          <div class="col-12 py-1 border border-right-0">
+           <h6 class="text-muted mt-2 text-center">
+            <i class="fa fa-check font-color-buy-business"></i>
+           </h6>
+          </div>
+        </div>
+
+        <div class="row gen">
+          <div class="col py-1">
+           <h6 class="text-center font-weight-bold my-2">Yes</h6>
+          </div>
+        </div>
+        <div class="row collapse multi-coll-prod" id="multiCollapseProd4" data-parent="#accordion">
+          <div class="col-12 py-1 border">
+           <h6 class="text-muted mt-2 text-center">250</h6>
+          </div>
+          <div class="col-12 py-1 border">
+           <h6 class="text-muted mt-2 text-center">
+            <i class="fa fa-check font-color-buy-business"></i>
+           </h6>
+          </div>
+          <div class="col-12 py-1 border">
+           <h6 class="text-muted mt-2 text-center">
+            <i class="fa fa-check font-color-buy-business"></i>
+           </h6>
+          </div>
+          <div class="col-12 py-1 border" style="height: 64.4px">
+           <h6 class="text-muted mt-2 text-center">
+            <i class="fa fa-check font-color-buy-business"></i>
+           </h6>
+          </div>
+          <div class="col-12 py-1 border">
+           <h6 class="text-muted mt-2 text-center">
+            <i class="fa fa-check font-color-buy-business"></i>
+           </h6>
+          </div>
+          <div class="col-12 py-1 border">
+           <h6 class="text-muted mt-2 text-center">
+            <i class="fa fa-check font-color-buy-business"></i>
+           </h6>
+          </div>
+          <div class="col-12 py-1 border">
+           <h6 class="text-muted mt-2 text-center">
+            <i class="fa fa-check font-color-buy-business"></i>
+           </h6>
+          </div>
+          <div class="col-12 py-1 border" style="height: 64.4px">
+           <h6 class="text-muted mt-2 text-center">
+            <i class="fa fa-check font-color-buy-business"></i>
+           </h6>
+          </div>
+          <div class="col-12 py-1 border" style="height: 64.4px">
+           <h6 class="text-muted mt-2 text-center">
+            <i class="fa fa-check font-color-buy-business"></i>
+           </h6>
+          </div>
+          <div class="col-12 py-1 border" style="height: 64.4px">
+           <h6 class="text-muted mt-2 text-center">
+            <i class="fa fa-check font-color-buy-business"></i>
+           </h6>
+          </div>
+          <div class="col-12 py-1 border" style="height: 64.4px">
+           <h6 class="text-muted mt-2 text-center">
+            <i class="fa fa-check font-color-buy-business"></i>
+           </h6>
+          </div>
+          <div class="col-12 py-1 border">
+           <h6 class="text-muted mt-2 text-center">
+            <i class="fa fa-check font-color-buy-business"></i>
+           </h6>
+          </div>
+        </div>
+
+
+        <div class="row gen">
+          <div class="col py-1">
+           <h6 class="text-center font-weight-bold my-2">Yes</h6>
+          </div>
+        </div>
+        <div class="row collapse multi-coll-mem" id="multiCollapseMem4" data-parent="#accordion">
+          <div class="col-12 py-1 border border-right-0">
+           <h6 class="text-muted mt-2 text-center">
+            <i class="fa fa-check font-color-buy-business"></i>
+           </h6>
+          </div>
+          <div class="col-12 py-1 border border-right-0">
+           <h6 class="text-muted mt-2 text-center">
+             5
+           </h6>
+          </div>
+          <div class="col-12 py-1 border border-right-0">
+           <h6 class="text-muted mt-2 text-center">
+             100,000
+           </h6>
+          </div>
+          <div class="col-12 py-1 border border-right-0">
+           <h6 class="text-muted mt-2 text-center">
+            <i class="fa fa-check font-color-buy-business"></i>
+           </h6>
+          </div>
+          <div class="col-12 py-1 border border-right-0">
+           <h6 class="text-muted mt-2 text-center">
+            <i class="fa fa-check font-color-buy-business"></i>
+           </h6>
+          </div>
+          <div class="col-12 py-1 border border-right-0">
+           <h6 class="text-muted mt-2 text-center">
+            <i class="fa fa-check font-color-buy-business"></i>
+           </h6>
+          </div>
+          <div class="col-12 py-1 border border-right-0">
+           <h6 class="text-muted mt-2 text-center">
+            <i class="fa fa-check font-color-buy-business"></i>
+           </h6>
+          </div>
+          <div class="col-12 py-1 border border-right-0">
+           <h6 class="text-muted mt-2 text-center">
+            <i class="fa fa-check font-color-buy-business"></i>
+           </h6>
+          </div>
+        </div>
+        
+        <div class="row gen">
+          <div class="col py-1">
+           <h6 class="text-center font-weight-bold my-2">Yes</h6>
+          </div>
+        </div>
+        <div class="row collapse multi-coll-list" id="multiCollapseList4" data-parent="#accordion">
+          <div class="col-12 py-1 border border-right-0">
+           <h6 class="text-muted mt-2 text-center">
+            <i class="fa fa-check font-color-buy-business"></i>
+           </h6>
+          </div>
+          <div class="col-12 py-1 border border-right-0">
+           <h6 class="text-muted mt-2 text-center">
+            <i class="fa fa-check font-color-buy-business"></i>
+           </h6>
+          </div>
+          <div class="col-12 py-1 border border-right-0">
+           <h6 class="text-muted mt-2 text-center">
+            <i class="fa fa-check font-color-buy-business"></i>
+           </h6>
+          </div>
+          <div class="col-12 py-1 border border-right-0">
+           <h6 class="text-muted mt-2 text-center">Unlimited</h6>
+          </div>
+          <div class="col-12 py-1 border border-right-0">
+           <h6 class="text-muted mt-2 text-center">100,000</h6>
+          </div>
+          <div class="col-12 py-1 border border-right-0">
+           <h6 class="text-muted mt-2 text-center">
+            <i class="fa fa-check font-color-buy-business"></i>
+           </h6>
+          </div>
+          <div class="col-12 py-1 border border-right-0">
+           <h6 class="text-muted mt-2 text-center">
+            <i class="fa fa-check font-color-buy-business"></i>
+           </h6>
+          </div>
+          <div class="col-12 py-1 border border-right-0">
+           <h6 class="text-muted mt-2 text-center">
+            <i class="fa fa-check font-color-buy-business"></i>
+           </h6>
+          </div>
+          <div class="col-12 py-1 border border-right-0">
+           <h6 class="text-muted mt-2 text-center">
+            <i class="fa fa-check font-color-buy-business"></i>
+           </h6>
+          </div>
+          <div class="col-12 py-1 border border-right-0">
+           <h6 class="text-muted mt-2 text-center">
+            <i class="fa fa-check font-color-buy-business"></i>
+           </h6>
+          </div>
+          <div class="col-12 py-1 border border-right-0">
+           <h6 class="text-muted mt-2 text-center">
+            <i class="fa fa-check font-color-buy-business"></i>
+           </h6>
+          </div>
+          <div class="col-12 py-1 border border-right-0">
+           <h6 class="text-muted mt-2 text-center">
+            <i class="fa fa-check font-color-buy-business"></i>
+           </h6>
+          </div>
+        </div>
+        
+        <div class="row gen">
+          <div class="col py-1">
+           <h6 class="text-center font-weight-bold my-2">Yes</h6>
+          </div>
+        </div>
+
+        <div class="row collapse multi-coll-blog" id="multiCollapseBlog4" data-parent="#accordion">
+          <div class="col-12 py-1 border border-right-0">
+           <h6 class="text-muted mt-2 text-center">
+            <i class="fa fa-check font-color-buy-business"></i>
+           </h6>
+          </div>
+          <div class="col-12 py-1 border border-right-0">
+           <h6 class="text-muted mt-2 text-center">
+            <i class="fa fa-check font-color-buy-business"></i>
+           </h6>
+          </div>
+          <div class="col-12 py-1 border border-right-0">
+           <h6 class="text-muted mt-2 text-center">
+            <i class="fa fa-check font-color-buy-business"></i>
+           </h6>
+          </div>
+          <div class="col-12 py-1 border border-right-0">
+           <h6 class="text-muted mt-2 text-center">3</h6>
+          </div>
+          <div class="col-12 py-1 border border-right-0">
+           <h6 class="text-muted mt-2 text-center">Unlimited</h6>
+          </div>
+          <div class="col-12 py-1 border border-right-0">
+           <h6 class="text-muted mt-2 text-center">
+            <i class="fa fa-check font-color-buy-business"></i>
+           </h6>
+          </div>
+        </div>
+
+
+        <div class="row gen">
+          <div class="col py-1">
+           <h6 class="text-center font-weight-bold my-2">Yes</h6>
+          </div>
+        </div>
+        
+        <div class="row collapse multi-coll-aff" id="multiCollapseAff4" data-parent="#accordion">
+          <div class="col-12 py-1 border border-right-0">
+           <h6 class="text-muted mt-2 text-center">
+            <i class="fa fa-check font-color-buy-business"></i>
+           </h6>
+          </div>
+          <div class="col-12 py-1 border border-right-0">
+           <h6 class="text-muted mt-2 text-center">
+            <i class="fa fa-check font-color-buy-business"></i>
+           </h6>
+          </div>
+          <div class="col-12 py-1 border border-right-0">
+           <h6 class="text-muted mt-2 text-center">
+            <i class="fa fa-check font-color-buy-business"></i>
+           </h6>
+          </div>
+          <div class="col-12 py-1 border border-right-0">
+           <h6 class="text-muted mt-2 text-center">5,000</h6>
+          </div>
+          <div class="col-12 py-1 border border-right-0">
+           <h6 class="text-muted mt-2 text-center">1</h6>
+          </div>
+          <div class="col-12 py-1 border border-right-0">
+           <h6 class="text-muted mt-2 text-center">
+            <i class="fa fa-check font-color-buy-business"></i>
+           </h6>
+          </div>
+        </div>
+
+
+        <div class="row gen">
+          <div class="col py-1">
+           <h6 class="text-center font-weight-bold my-2">Yes</h6>
+          </div>
+        </div>
+
+        <div class="row collapse multi-coll-sup" id="multiCollapseSup4" data-parent="#accordion">
+          <div class="col-12 py-1 border border-right-0">
+           <h6 class="text-muted mt-2 text-center">10</h6>
+          </div>
+          <div class="col-12 py-1 border border-right-0">
+           <h6 class="text-muted mt-2 text-center">
+            <i class="fa fa-check font-color-buy-business"></i>
+           </h6>
+          </div>
+          <div class="col-12 py-1 border border-right-0">
+           <h6 class="text-muted mt-2 text-center">
+             100
+           </h6>
+          </div>
+          <div class="col-12 py-1 border border-right-0">
+           <h6 class="text-muted mt-2 text-center">
+            <i class="fa fa-check font-color-buy-business"></i>
+           </h6>
+          </div>
+          <div class="col-12 py-1 border border-right-0">
+           <h6 class="text-muted mt-2 text-center">1</h6>
+          </div>
+        </div>
+
+        <div class="row gen">
+          <div class="col py-1">
+           <h6 class="text-center font-weight-bold my-2" >&nbsp;</h6>
+          </div>
+        </div>
+        
+        <div class="row collapse multi-coll-smart" id="multiCollapseSmart4" data-parent="#accordion">
+          <div class="col-12 py-1 border border-right-0">
+           <h6 class="text-muted mt-2 text-center">
+             &nbsp;
+           </h6>
+          </div>
+          <div class="col-12 py-1 border border-right-0">
+           <h6 class="text-muted mt-2 text-center">
+             &nbsp;
+           </h6>
+          </div>
+          <div class="col-12 py-1 border border-right-0">
+           <h6 class="text-muted mt-2 text-center">Yes</h6>
+          </div>
+        </div>
+
+
+
+      </div>
+
+
+    </div>
+
+
+  </div>
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  <script>
+    var collapseLinkArray = document.getElementsByClassName('collapse-link');
+    var angleArrowArray = document.getElementsByClassName('angle');
+    
+    var linkChangeArrow = function(collapseLink, angleArrow) {
+
+      this.collapseLink = collapseLink;
+      this.angleArrow = angleArrow;
+
+      this.collapseLink.addEventListener('click', function() {
+        angleArrow.classList.toggle('fa-angle-up');
+        return angleArrow.classList.toggle('fa-angle-down');
+      });
+      
+      /*
+      this.collapseLink.addEventListener('click', function() {
+        angleArrow.classList.toggle('fa-angle-down');
+      });
+      */
+
+    };
+
+    var linkChangeArrowEvent = new Array();
+    for(i = 0; i < collapseLinkArray.length; i++) {
+      linkChangeArrowEvent[i]; new linkChangeArrow(collapseLinkArray[i], angleArrowArray[i]);
+    };
+
+  </script>
+</body>
+</html>
